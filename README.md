@@ -54,11 +54,11 @@ Each program includes proper error handling and is well-commented for clarity.
 - Calculates the overall mark using:
 - - Overall = 0.7 * ExamMark + 0.3 * CourseworkMark
 - Assigns grades based on overall mark:
-- - A: 90–100
-- - B: 75–89
-- - C: 60–74
-- - D: 50–59
-- - F: below 50
+  - A: 90–100
+  - B: 75–89
+  - C: 60–74
+  - D: 50–59
+  - F: below 50
 - Stores data in a structured NumPy array.
 - Sorts students by overall mark (descending).
 - Writes the results to `final_report.txt`.
